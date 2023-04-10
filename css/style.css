@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+   text-align: center;
+}
+.korzina{
+    position: absolute;
+    right: 0;
+    top: 20px;
+ 
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.all1{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    
+  
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+h3{
+    text-align: center;
+}
+.card p{
+    font-size: 16px;
+    margin: 20px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 50px;
+
+   
+}
+.but{
+ 
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    
+}
+.but:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.price{
+    color: rgb(12, 0, 174);
+ font-weight: 600;
+
+ 
+}
+/* .cards{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+
+}
+.cards h3{
+    text-align: center;
+}
+.cards p{
+    font-size: 16px;
+    margin: 20px;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 50px;
+} */
